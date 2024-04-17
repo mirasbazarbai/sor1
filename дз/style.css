@@ -1,0 +1,94 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  min-height: 100vh;
+  text-align: center;
+  background-color: #B0AFB5;
+}
+
+.header, .about-me, .achievements, .contact-us {
+  max-width: 600px;
+  margin: 50px 0; /* Увеличиваем отступы для всех заголовков */
+}
+
+h1, h2 {
+  font-size: 70px;
+  line-height: 1.2;
+  margin: 20px 0;
+  color: #9F1C2C;
+}
+
+h2 {
+  font-size: 60px; 
+}
+
+p {
+  font-size: 20px;
+  color: #9F1C2C;
+  margin-bottom: 30px;
+}
+
+.explore-button {
+  background-color: #9F1C2C;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #333;
+}
+
+.mi {
+  display: flex;
+  align-items:center;
+}
+
+.mi img {
+  max-width: 40%;
+}
+
+.image-text {
+  margin-left: 20px; 
+  color: #9F1C2C;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.large-text {
+  font-size: 50px; 
+}
+
+.section-line {
+  width: 90%; 
+  border-top: 2px solid #9F1C2C; 
+  margin: 20px auto; 
+}
+
+.contact-us {
+  padding: 20px; 
+  background-color: #B0AFB5; 
+}
+
+.contact-us h2, .about-me h1 {
+  font-size: 60px;
+  color: #9F1C2C;
+  margin-bottom: 10px; 
+}
+
+.contact-us p {
+  font-size: 18px;
+  color: #9F1C2C;
+  margin-bottom: 10px; 
+}
