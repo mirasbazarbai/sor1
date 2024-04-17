@@ -53,6 +53,7 @@ p {
 .mi {
   display: flex;
   align-items:center;
+  justify-content: center;
 }
 
 .mi img {
@@ -65,9 +66,9 @@ p {
   font-size: 18px;
   font-weight: bold;
 }
-
 .large-text {
   font-size: 50px; 
+  margin-right: 40px;
 }
 
 .section-line {
