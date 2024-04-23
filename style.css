@@ -70,7 +70,13 @@ p {
   font-size: 50px; 
   margin-right: 40px;
 }
+.mi img:first-child {
+  margin-right: 20px; 
+}
 
+.mi img:last-child {
+  margin-left: 20px; 
+}
 .section-line {
   width: 90%; 
   border-top: 2px solid #9F1C2C; 
